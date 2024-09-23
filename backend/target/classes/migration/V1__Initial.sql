@@ -16,6 +16,5 @@ CREATE TABLE `user` (
 
 ALTER TABLE `user` ADD CONSTRAINT `uc_user_email` UNIQUE (`email`);
 
-
 INSERT INTO `user` (`name`,`email`,`password`,`role`,`active`)
 VALUES ('MDTI Admin','admin@at.com','$2a$10$rCSm8epHdCFXEIjkV1a2GuDyJ1rfI6rpvQFf6iacdfGsJaVB5VVom','ADMIN',1);
